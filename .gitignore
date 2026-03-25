@@ -1,0 +1,42 @@
+# Data (large files)
+data/train/
+data/dev/
+data/test/
+data/fda_*/
+data/video_frames/
+*.mp4
+
+# Model outputs
+outputs/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submissions (keep tracked separately)
+# submissions/
+
+# Claude
+.claude/
+
+# UV
+uv.lock
+
+# Preview images
+outputs/fda_preview_*.png
